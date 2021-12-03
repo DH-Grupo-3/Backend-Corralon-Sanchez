@@ -1,0 +1,27 @@
+{
+  "name": "backend-corralon-sanchez",
+  "version": "1.0.0",
+  "description": "Backend del proyecto final para DigitalHouse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DH-Grupo-3/Backend-Corralon-Sanchez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DH-Grupo-3/Backend-Corralon-Sanchez/issues"
+  },
+  "homepage": "https://github.com/DH-Grupo-3/Backend-Corralon-Sanchez#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.15"
+  }
+}
